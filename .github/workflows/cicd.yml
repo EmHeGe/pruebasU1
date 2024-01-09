@@ -12,5 +12,5 @@ jobs:
       env:
           TEST_NAME: CalculadoraTest
       with:
-          configuration: public/Tests/phpunit.xml
+          configuration: Tests/phpunit.xml
           args: --coverage-text
